@@ -1,0 +1,36 @@
+{
+  "name": "linked-list",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000l\u0000i\u0000n\u0000k\u0000e\u0000d\u0000-\u0000l\u0000i\u0000s\u0000t\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.[t|j]sx?$": "babel-jest"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nick0099/linked-list.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Nick0099/linked-list/issues"
+  },
+  "homepage": "https://github.com/Nick0099/linked-list#readme",
+  "devDependencies": {
+    "@babel/cli": "^8.0.4",
+    "@babel/core": "^8.0.1",
+    "@babel/preset-env": "^8.0.2",
+    "babel-jest": "^30.4.1",
+    "jest": "^30.4.2"
+  }
+}
